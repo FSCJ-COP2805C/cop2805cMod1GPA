@@ -14,11 +14,11 @@ This assignment will assess your knowledge of concepts from COP2551C and COP2800
       - King (10 points)
   - Each "Face" card - (Ace, Jack, Queen, King) must be identified as such using a private instance variable
   - Each card must include a private instance variable which indicates whether it has been dealt in a hand or not
-  - Each card must include a instance variable which indicates its suit as described above
+  - Each card must include a private instance variable which indicates its suit as described above
   - The Card class must include accessors and mutators as required.
   - Include an overridden toString method in your Card class to display the card's state (all instance variable values)  
     Use this method whenever you display a card.
-- Your collection object must be either a Java array or a Java ArrayList,  
+- Your collection object must be either a Java **array** or a Java **ArrayList**,  
   do not use any advanced data structures for this assignment.  
 - Your card deck class must include a method to deal a random hand of any size between 1 and 52
   with no duplicates
