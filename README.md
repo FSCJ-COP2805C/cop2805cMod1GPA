@@ -21,8 +21,16 @@ This assignment will assess your knowledge of concepts from COP2551C and COP2800
 - Your collection object must be either a Java **array** or a Java **ArrayList**,  
   do not use any advanced data structures for this assignment.  
 - Your card deck class must include a method to deal a random hand of any size between 1 and 52
-  with no duplicates
+  with no duplicates.
+    - Hint: I use a naive brute-force algorithm for this feature:
+      - start with an empty hand (e.g. an empty array list of cards)
+      - loop for the size of the hand (should be a parameter passed to your method)
+        - select a random card from the deck (use the Random API with the nextInt method)
+        - if the card has not been dealt, add it to the hand and increment the loop index
+        - (do not increment the index if the card has already been dealt)
+      - once the loop exits, you will have the full hand which is the return value of the method
 - Your card deck class must include a method to display a dealt hand
+- Test your program by dealing and displaying a single hand
 
 - Sample output is shown below:
 
