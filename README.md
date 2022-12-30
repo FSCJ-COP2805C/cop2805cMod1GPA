@@ -25,7 +25,7 @@ This assignment will assess your knowledge of concepts from COP2551C and COP2800
     - Hint: I use a naive brute-force algorithm for this feature:
       - start with an empty hand (e.g. an empty array list of cards)
       - loop for the size of the hand (should be a parameter passed to your method)
-        - select a random card from the deck (use the Random API with the nextInt method)
+        - select a random card from the deck (use the Random API with the nextInt method, there is an example of this in Ch. 1 of the textbook)
         - if the card has not been dealt, add it to the hand and increment the loop index
         - (do not increment the index if the card has already been dealt)
       - once the loop exits, you will have the full hand which is the return value of the method
